@@ -28,7 +28,7 @@ class GameScreen extends StatelessWidget {
           )),
           SizedBox(height: 20),
           Obx(() => Text(
-            '횟수: ${controller.roundsPlayed}',
+            '횟수: ${controller.roundsPlayed} / 5 ',
             style: TextStyle(fontSize: 20),
           )),
           SizedBox(height: 20),
